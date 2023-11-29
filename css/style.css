@@ -1,0 +1,123 @@
+/* CSS Document */
+
+/* 
+Fonts:
+uppercut-angle
+*/
+
+/*Font Import */
+ @import url("https://use.typekit.net/ruz3vpi.css");
+
+/* CSS Reset */
+body, main, nav, #start, #biostart, #projects, #earlylife, #departments, #teenyears, #location, #laterlife, #future, #end, footer {
+	font-family: "uppercut-angle", sans-serif;
+}
+
+/* Body CSS */
+body {
+	background-color: #000;
+	padding: 10px;
+	margin: 0;
+	border: 25px #434343 solid;
+}
+
+.important {
+	font-size: 1.02em;
+	font-weight: bold;
+}
+
+/* Nav CSS */
+nav {
+	text-align: center;
+}
+
+/* Header CSS */
+header {
+	color: #7A97E1;
+	text-align: center;
+}
+
+#start {
+	color: #518320;
+	background-color: #942471;
+	padding: 25px;
+	margin: 0px 0px 10px 0px;
+	border: 10px cadetblue dotted;
+}
+
+
+#biostart {
+	color: #7A97E1;
+	background-image: url("../images/fancyMe.jpg");
+	background-size: 100% 100%;
+	padding: 25px;
+	margin: 0px 0px 10px 0px;
+	border: 10px cadetblue dotted;
+}
+#biostart header {
+	color: #7A97E1;
+	text-align: center;
+}
+
+/* Main CSS */
+main {
+	
+}
+
+#projects {
+	color: powderblue;
+	background-color: purple; 
+	padding: 25px;
+	margin: 10px 0px;
+	border: 10px goldenrod dotted;
+}
+
+#earlylife {
+	color: #EA7ED6;
+	background-color: darkred; 
+	padding: 25px;
+	margin: 10px 0px;
+	border: 10px #41626D dotted;	
+}
+
+#departments {
+	color: palegoldenrod;
+	background-color: darkolivegreen; 
+	padding: 25px;
+	margin: 10px 0px;
+	border: 10px aquamarine dotted;
+}
+
+#teenyears {
+	
+}
+
+#location {
+	color: darkred; 
+	background-color: grey;
+	padding: 25px;
+	margin: 10px 0px;
+	border: 10px plum dotted;
+}
+#laterlife {
+	
+}
+
+#future {
+	
+}
+
+#end {
+	color: rebeccapurple; 
+	background-color: darkcyan;
+	padding: 25px;
+	margin: 10px 0px;
+	border: 10px lightcoral dotted;
+}
+
+/* Footer CSS */
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding: 0 1em;
+}
